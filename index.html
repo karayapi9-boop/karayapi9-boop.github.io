@@ -131,6 +131,9 @@
     .station-feature-offer { margin: 0 0 10px; color: rgba(255,255,255,.92); font-size: .85rem; }
     .station-feature-offer strong { display: block; color: #fff; }
     .station-feature-action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       min-height: 42px;
       padding: 0 15px;
       border: 0;
@@ -138,6 +141,7 @@
       background: #fff;
       color: #7c1921;
       font-weight: 700;
+      text-decoration: none;
       cursor: pointer;
       box-shadow: 0 5px 14px rgba(60, 12, 16, .18);
     }
@@ -1058,7 +1062,7 @@
         <div class="station-feature-price"><strong>188,8 ¢/L</strong><span>Essence ordinaire · donnée du jour</span></div>
         <div>
           <p class="station-feature-offer"><strong>Lavage auto sans contact</strong>Forfaits dès 7,99 $ avec achat d’essence.</p>
-          <button class="station-feature-action" type="button" data-go="essence">Voir la station et les prix</button>
+          <a class="station-feature-action" data-featured-station-directions target="_blank" rel="noopener" aria-label="Ouvrir l’itinéraire Google Maps vers Petro-Canada Boni-Soir à Saint-Jérôme">Voir la station sur Google Maps</a>
         </div>
       </div>
     </section>
@@ -2509,6 +2513,19 @@
         if (text.indexOf('Google Pixel') === 0) addCardLink(card, 'aubaine');
         if (text.indexOf('Élections Québec 2026') === 0) addCardLink(card, 'nouvelle', 'nouvelle-elections-quebec-2026-le-parti-quebecois-remporte-un-gouvernement-minoritaire');
       });
+
+      var featuredStationLink = document.querySelector('[data-featured-station-directions]');
+      if (featuredStationLink) {
+        var featuredStationUrl = MapHelpers.mapsDirectionsUrl({
+          label: 'Petro-Canada Boni-Soir',
+          venue: 'Petro-Canada Boni-Soir',
+          address: '1149 boulevard Saint-Antoine',
+          locality: 'Saint-Jérôme',
+          region: 'Québec',
+          country: 'Canada'
+        });
+        if (featuredStationUrl) featuredStationLink.href = featuredStationUrl;
+      }
 
       document.querySelectorAll('.rank-card, .home-stations-card').forEach(function (card) {
         var locality = card.getAttribute('data-locality') || card.querySelector('h3').textContent.trim();
