@@ -1062,7 +1062,7 @@
         <div class="station-feature-price"><strong>188,8 ¢/L</strong><span>Essence ordinaire · donnée du jour</span></div>
         <div>
           <p class="station-feature-offer"><strong>Lavage auto sans contact</strong>Forfaits dès 7,99 $ avec achat d’essence.</p>
-          <a class="station-feature-action" data-featured-station-directions target="_blank" rel="noopener" aria-label="Ouvrir l’itinéraire Google Maps vers Petro-Canada Boni-Soir à Saint-Jérôme">Voir la station sur Google Maps</a>
+          <a class="station-feature-action" data-featured-station-directions href="https://www.google.com/maps/dir/?api=1&amp;destination=Petro-Canada%20Boni-Soir%2C%201149%20boulevard%20Saint-Antoine%2C%20Saint-J%C3%A9r%C3%B4me%2C%20Qu%C3%A9bec%2C%20Canada&amp;travelmode=driving" target="_blank" rel="noopener" aria-label="Itinéraire Google Maps vers Petro-Canada Boni-Soir à Saint-Jérôme">Itinéraire</a>
         </div>
       </div>
     </section>
@@ -2523,6 +2523,8 @@
           locality: 'Saint-Jérôme',
           region: 'Québec',
           country: 'Canada'
+        }, {
+          travelmode: 'driving'
         });
         if (featuredStationUrl) featuredStationLink.href = featuredStationUrl;
       }
