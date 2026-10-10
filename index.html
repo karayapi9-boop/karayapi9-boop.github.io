@@ -2690,12 +2690,10 @@
         if (!card.id) card.id = id;
 
         var existingAction = card.querySelector('.card-direct-link, .text-button[data-go], .ghost-action[data-go], .info-card-body > .inline-link[href^="http"]');
-        var destination = card.querySelector('h3 a[href^="http"], .news-card-link[href^="http"], .button-row .inline-link[href^="http"], .info-card-body > .inline-link[href^="http"]');
-        if (!destination) destination = card.querySelector('a[href^="http"]');
-        var shareUrl = destination ? destination.getAttribute('href') : '';
-        if (!shareUrl && existingAction && existingAction.matches('a[href^="http"]')) {
-          shareUrl = existingAction.getAttribute('href');
-        }
+        var panel = card.closest('.panel');
+        var shareSection = existingAction && existingAction.getAttribute('data-go');
+        if (!shareSection) shareSection = panel && panel.id === 'accueil' && prefix === 'nouvelle' ? 'nouvelles' : (panel ? panel.id : 'accueil');
+        var shareUrl = 'https://lecoindeslaurentides.ca/#' + shareSection;
 
         var summaryNode = card.querySelector('.prize, .market-note, .news-card-link p, .info-card-body p, p');
         var summary = summaryNode ? summaryNode.textContent.replace(/\s+/g, ' ').trim() : '';
