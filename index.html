@@ -1785,6 +1785,7 @@
         </div>
         <div class="source-box"><strong>Source : <a href="https://www.regie-energie.qc.ca/fr/consommateurs/informations-pratiques/prix-des-produits-petroliers" target="_blank" rel="noopener">Régie de l’énergie du Québec ↗</a></strong><br>Données relayées par achetezlemeilleur.ca (synchronisation toutes les 5 minutes). Essence ordinaire · relevés en temps réel ce matin · moyenne régionale : 190,7 ¢/L. Les prix peuvent changer après le relevé.</div>
         <p class="section-direct-link" style="margin-top:18px;margin-bottom:0"><a href="https://lecoindeslaurentides.ca/prix-essence-laurentides/">Page dédiée : prix de l’essence dans les Laurentides</a></p>
+        <p class="section-direct-link" style="margin-top:8px;margin-bottom:0"><a href="https://lecoindeslaurentides.ca/essence-pas-chere-laurentides/">Essence pas chère</a></p>
       </section>
 
       <section class="panel" id="marketplace" role="tabpanel" aria-labelledby="tab-marketplace" hidden>
@@ -3294,7 +3295,7 @@
       </section>
     </main>
 
-    <footer class="footer"><span><strong>Le Coin des Laurentides</strong> · Instantané du <span data-current-date="inline">jour</span></span><nav class="footer-links" aria-label="Informations du site"><a href="#confidentialite" data-legal-page="confidentialite">Politique de confidentialité</a><a href="#contact" data-legal-page="contact">Contact</a></nav><span>Instantané daté : météo, horaires, prix et disponibilités peuvent changer.</span></footer>
+    <footer class="footer"><span><strong>Le Coin des Laurentides</strong> · Instantané du <span data-current-date="inline">jour</span></span><nav class="footer-links" aria-label="Informations du site"><a href="#confidentialite" data-legal-page="confidentialite">Politique de confidentialité</a><a href="#contact" data-legal-page="contact">Contact</a><a href="https://lecoindeslaurentides.ca/infolettre/">Infolettre</a></nav><span>Instantané daté : météo, horaires, prix et disponibilités peuvent changer.</span></footer>
   </div>
 
   <div class="newsletter-popup" id="newsletter-popup" hidden>
@@ -4295,8 +4296,32 @@
       var newsletterSubmitting = false;
       var newsletterPreviousFocus = null;
 
+      function newsletterStorageGet(key) {
+        try {
+          return window.localStorage.getItem(key);
+        } catch (error) {
+          return null;
+        }
+      }
+
+      function newsletterStorageSet(key, value) {
+        try {
+          window.localStorage.setItem(key, value);
+        } catch (error) {
+          // Stockage indisponible : ne jamais bloquer l'affichage du site.
+        }
+      }
+
+      if (newsletterStorageGet('lcdl_infolettre_ferme') || newsletterStorageGet('lcdl_infolettre_inscrit')) {
+        newsletterSeen = true;
+      }
+
       function openNewsletterPopup() {
         if (!newsletterPopup || newsletterSeen) return;
+        if (newsletterStorageGet('lcdl_infolettre_ferme') || newsletterStorageGet('lcdl_infolettre_inscrit')) {
+          newsletterSeen = true;
+          return;
+        }
         newsletterPopup.hidden = false;
         newsletterPreviousFocus = document.activeElement;
         window.requestAnimationFrame(function () {
@@ -4307,6 +4332,7 @@
       function closeNewsletterPopup() {
         if (!newsletterPopup || newsletterPopup.hidden) return;
         newsletterSeen = true;
+        newsletterStorageSet('lcdl_infolettre_ferme', '1');
         newsletterPopup.hidden = true;
         if (newsletterPreviousFocus && typeof newsletterPreviousFocus.focus === 'function') newsletterPreviousFocus.focus();
       }
@@ -4337,6 +4363,7 @@
       if (newsletterForm) {
         newsletterForm.addEventListener('submit', function () {
           newsletterSeen = true;
+          newsletterStorageSet('lcdl_infolettre_inscrit', '1');
           newsletterSubmitting = true;
           newsletterSubmit.disabled = true;
           newsletterSubmit.textContent = 'INSCRIPTION…';
