@@ -15,10 +15,6 @@
   h2{color:#173f35;font-size:1.25rem;margin-top:1.6em}
   .cta{display:inline-block;background:#173f35;color:#fff;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:600;margin:14px 0}
   .card{background:#fff;border:1px solid #d7ddd7;border-radius:12px;padding:16px 18px;margin:14px 0}
-  table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #d7ddd7;border-radius:12px;overflow:hidden}
-  th,td{padding:10px 12px;text-align:left;border-bottom:1px solid #e3e8e3;font-size:.97rem}
-  th{background:#173f35;color:#fff}
-  tr.vedette{background:#f7e5d5}
   nav.pied{margin-top:36px;padding-top:16px;border-top:1px solid #d7ddd7;font-size:.95rem}
   nav.pied a{color:#173f35;margin-right:14px}
   .muted{color:#59645e}
@@ -28,22 +24,33 @@
 <div class="wrap">
   <header><a href="https://lecoindeslaurentides.ca/">← Le Coin des Laurentides</a></header>
   <h1>L'infolettre du Coin des Laurentides</h1>
-  <p>Chaque matin vers 6 h, les abonnés reçoivent par courriel l'essentiel des Laurentides : <strong>les prix d'essence et la météo en vedette</strong>, puis les nouvelles locales, les aubaines vérifiées et les concours en cours. Pour vous inscrire, ouvrez <a href="https://lecoindeslaurentides.ca/">la page d'accueil</a> : le formulaire apparaît après quelques secondes.</p>
+  <p>Chaque matin vers 6 h, les abonnés reçoivent par courriel l'essentiel des Laurentides : <strong>les prix d'essence et la météo en vedette</strong>, puis les nouvelles locales, les aubaines vérifiées et les concours en cours.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">📬 Inscrivez-vous — c'est gratuit</h2>
+    <p>Chaque matin vers 6 h : les prix d'essence et la météo en vedette, puis les nouvelles, les aubaines vérifiées et les concours des Laurentides.</p>
+    <div id="error-message" style="display:none;color:#661d1d;background:#ffeded;border:1px solid #ff4949;border-radius:6px;padding:10px 14px;margin:10px 0">Nous n'avons pas pu confirmer votre inscription.</div>
+    <div id="success-message" style="display:none;color:#085229;background:#e7faf0;border:1px solid #13ce66;border-radius:6px;padding:10px 14px;margin:10px 0">Votre inscription est confirmée. Merci !</div>
+    <form id="sib-form" method="POST" action="https://75e1c6cb.sibforms.com/serve/MUIFACaqRWK0z_-jgHoGv2FSXD-VN40OaUwfsaat0MhozVUS-_E5msEYtNI0Iqsu" data-type="subscription">
+      <p style="margin:8px 0"><input type="email" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Votre adresse courriel" data-required="true" required style="width:100%;box-sizing:border-box;padding:12px;font-size:16px;border:1px solid #C0CCD9;border-radius:6px" /></p>
+      <p style="margin:8px 0"><input maxlength="200" type="text" id="PRENOM" name="PRENOM" autocomplete="off" placeholder="Prénom (optionnel)" style="width:100%;box-sizing:border-box;padding:12px;font-size:16px;border:1px solid #C0CCD9;border-radius:6px" /></p>
+      <p style="margin:8px 0;text-align:left"><label style="font-size:13px;color:#3C4858"><input type="checkbox" value="1" id="OPT_IN" name="OPT_IN" required /> Je consens à recevoir par courriel l'infolettre du Coin des Laurentides. Je pourrai me désinscrire en tout temps.</label></p>
+      <p style="margin:10px 0;text-align:center"><button form="sib-form" type="submit" style="font-size:17px;font-weight:700;color:#fff;background:#173f35;border-radius:8px;border:0;padding:13px 40px;cursor:pointer">S'INSCRIRE</button></p>
+      <input type="text" name="email_address_check" value="" style="display:none">
+      <input type="hidden" name="locale" value="fr">
+    </form>
+    <script>window.REQUIRED_ERROR_MESSAGE="Vous devez renseigner ce champ. ";window.EMAIL_INVALID_MESSAGE="Les informations que vous avez fournies ne sont pas valides. Veuillez vérifier le format du champ et réessayer.";window.GENERIC_INVALID_MESSAGE=window.EMAIL_INVALID_MESSAGE;window.LOCALE='fr';var AUTOHIDE=Boolean(0);</script>
+    <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+  </div>
+
   <h2>Éditions archivées</h2>
-  <div class="card"><p><strong><a href="https://lecoindeslaurentides.ca/infolettre/2026-10-13/">Mardi 13 octobre 2026</a></strong><br><span class="muted">⛽ Essence dès 185,9 ¢ à Saint-Jérôme · 🌧️ Pluie aujourd'hui</span></p></div>
+<div class="card"><p><strong><a href="https://lecoindeslaurentides.ca/infolettre/2026-10-13/">Mardi 13 octobre 2026</a></strong><br><span class="muted">À Saint-Jérôme, la moins chère : Costco à 185,9 ¢/L. Votre Petro-Canada Boni-Soir (1149, boul. Saint-Antoine) : 188,8 ¢/L.</span></p></div>
+
 
   <nav class="pied">
     <a href="https://lecoindeslaurentides.ca/">Accueil</a>
     <a href="https://lecoindeslaurentides.ca/prix-essence-laurentides/">Tous les secteurs</a>
     <a href="https://lecoindeslaurentides.ca/essence-pas-chere-laurentides/">Essence pas chère</a>
-    <a href="https://lecoindeslaurentides.ca/prix-essence-saint-jerome/">Saint-Jérôme</a>
-    <a href="https://lecoindeslaurentides.ca/prix-essence-mirabel/">Mirabel</a>
-    <a href="https://lecoindeslaurentides.ca/prix-essence-blainville/">Blainville</a>
-    <a href="https://lecoindeslaurentides.ca/prix-essence-sainte-therese/">Sainte-Thérèse</a>
-    <a href="https://lecoindeslaurentides.ca/prix-essence-saint-eustache/">Saint-Eustache</a>
-    <a href="https://lecoindeslaurentides.ca/prix-essence-saint-colomban/">Saint-Colomban</a>
-    <a href="https://lecoindeslaurentides.ca/prix-essence-lachute/">Lachute</a>
-    <a href="https://lecoindeslaurentides.ca/prix-essence-saint-sauveur/">Saint-Sauveur</a>
     <a href="https://lecoindeslaurentides.ca/lave-auto-saint-jerome/">Lave-auto</a>
     <a href="https://lecoindeslaurentides.ca/infolettre/">Infolettre</a>
   </nav>
