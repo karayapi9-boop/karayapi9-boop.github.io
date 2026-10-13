@@ -1,117 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://lecoindeslaurentides.ca/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/prix-essence-laurentides/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/prix-essence-saint-jerome/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/prix-essence-mirabel/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/prix-essence-blainville/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/prix-essence-sainte-therese/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/prix-essence-saint-eustache/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/prix-essence-saint-colomban/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/prix-essence-lachute/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/prix-essence-saint-sauveur/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/lave-auto-saint-jerome/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/aubaines-laurentides/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/concours-quebec/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/meteo-laurentides/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/nouvelles-laurentides/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/aubaines-circulaires/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/hockey-laurentides/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/autobus-laurentides/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lecoindeslaurentides.ca/bottin-municipal-saint-jerome/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
+<url><loc>https://lecoindeslaurentides.ca/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/prix-essence-laurentides/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/aubaines-laurentides/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/concours-quebec/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/meteo-laurentides/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/nouvelles-laurentides/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/aubaines-circulaires/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/hockey-laurentides/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/autobus-laurentides/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/bottin-municipal-saint-jerome/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/prix-essence-saint-jerome/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/prix-essence-mirabel/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/prix-essence-blainville/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/prix-essence-sainte-therese/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/prix-essence-saint-eustache/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/prix-essence-saint-colomban/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/prix-essence-lachute/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/prix-essence-saint-sauveur/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/lave-auto-saint-jerome/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/essence-pas-chere-laurentides/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/infolettre/</loc></url>
+<url><loc>https://lecoindeslaurentides.ca/infolettre/2026-10-13/</loc></url>
 </urlset>
