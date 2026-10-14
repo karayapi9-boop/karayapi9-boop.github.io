@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+  <loc>https://lecoindeslaurentides.ca/nouvelles-laurentides/</loc>
+  <lastmod>2026-10-13</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-nouvelles.webp</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://lecoindeslaurentides.ca/meteo-laurentides/</loc>
+  <lastmod>2026-10-13</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-meteo.webp</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://lecoindeslaurentides.ca/aubaines-laurentides/</loc>
+  <lastmod>2026-10-13</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-aubaines.webp</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://lecoindeslaurentides.ca/aubaines-circulaires/</loc>
+  <lastmod>2026-10-13</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-circulaires.webp</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://lecoindeslaurentides.ca/concours-quebec/</loc>
+  <lastmod>2026-10-13</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-concours.webp</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://lecoindeslaurentides.ca/hockey-laurentides/</loc>
+  <lastmod>2026-10-13</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-hockey.webp</image:loc>
+  </image:image>
+</url>
+</urlset>
