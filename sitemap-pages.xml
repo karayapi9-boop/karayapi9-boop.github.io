@@ -50,4 +50,11 @@
     <video:publication_date>2026-10-14</video:publication_date>
   </video:video>
 </url>
+<url>
+  <loc>https://lecoindeslaurentides.ca/indice-prix-essence-laurentides/</loc>
+  <lastmod>2026-10-14</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-essence.webp</image:loc>
+  </image:image>
+</url>
 </urlset>
