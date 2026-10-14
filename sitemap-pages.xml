@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
   <loc>https://lecoindeslaurentides.ca/</loc>
   <lastmod>2026-10-13</lastmod>
@@ -34,5 +34,20 @@
   <image:image>
     <image:loc>https://lecoindeslaurentides.ca/assets/photo-autobus.webp</image:loc>
   </image:image>
+</url>
+<url>
+  <loc>https://lecoindeslaurentides.ca/video-prix-essence/</loc>
+  <lastmod>2026-10-14</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/video-essence-poster.jpg</image:loc>
+  </image:image>
+  <video:video>
+    <video:thumbnail_loc>https://lecoindeslaurentides.ca/assets/video-essence-poster.jpg</video:thumbnail_loc>
+    <video:title>Prix de l'essence du jour dans les Laurentides — la vidéo</video:title>
+    <video:description>Le palmarès vidéo du jour des prix d'essence des Laurentides : la station la moins chère de chaque secteur, la tendance et le prix du Boni-Soir à Saint-Jérôme.</video:description>
+    <video:content_loc>https://lecoindeslaurentides.ca/assets/video-essence.mp4</video:content_loc>
+    <video:duration>27</video:duration>
+    <video:publication_date>2026-10-14</video:publication_date>
+  </video:video>
 </url>
 </urlset>
