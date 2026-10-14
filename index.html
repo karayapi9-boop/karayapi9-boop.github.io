@@ -1309,12 +1309,14 @@
     .newsletter-close:hover { background: #f1f5f7; }
     .newsletter-close:focus-visible,
     .newsletter-field input:focus-visible,
+    .newsletter-field select:focus-visible,
     .newsletter-consent input:focus-visible,
     .newsletter-submit:focus-visible { outline: 3px solid #8bb8da; outline-offset: 2px; }
     .newsletter-form { display: grid; gap: 13px; }
     .newsletter-field { display: grid; gap: 6px; }
     .newsletter-field label { color: #263746; font-size: .82rem; font-weight: 700; }
-    .newsletter-field input {
+    .newsletter-field input,
+    .newsletter-field select {
       width: 100%;
       min-height: 48px;
       padding: 11px 13px;
@@ -3312,6 +3314,21 @@
         <div class="newsletter-field">
           <label for="newsletter-first-name">Prénom <span aria-hidden="true">(optionnel)</span></label>
           <input id="newsletter-first-name" name="PRENOM" type="text" autocomplete="given-name" placeholder="Prénom (optionnel)">
+        </div>
+        <div class="newsletter-field">
+          <label for="newsletter-city">Ville <span aria-hidden="true">(optionnel)</span></label>
+          <select id="newsletter-city" name="VILLE" autocomplete="address-level2">
+            <option value="">Ta ville (optionnel)</option>
+            <option value="Saint-Jérôme">Saint-Jérôme</option>
+            <option value="Mirabel">Mirabel</option>
+            <option value="Blainville">Blainville</option>
+            <option value="Sainte-Thérèse">Sainte-Thérèse</option>
+            <option value="Saint-Eustache">Saint-Eustache</option>
+            <option value="Saint-Colomban">Saint-Colomban</option>
+            <option value="Lachute">Lachute</option>
+            <option value="Saint-Sauveur">Saint-Sauveur</option>
+            <option value="Autre">Autre</option>
+          </select>
         </div>
         <label class="newsletter-consent" for="newsletter-opt-in">
           <input id="newsletter-opt-in" name="OPT_IN" type="checkbox" value="1" required>
