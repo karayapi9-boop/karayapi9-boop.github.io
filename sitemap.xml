@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://lecoindeslaurentides.ca/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/prix-essence-laurentides/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/aubaines-laurentides/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/concours-quebec/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/meteo-laurentides/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/nouvelles-laurentides/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/aubaines-circulaires/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/hockey-laurentides/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/autobus-laurentides/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/bottin-municipal-saint-jerome/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/prix-essence-saint-jerome/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/prix-essence-mirabel/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/prix-essence-blainville/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/prix-essence-sainte-therese/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/prix-essence-saint-eustache/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/prix-essence-saint-colomban/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/prix-essence-lachute/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/prix-essence-saint-sauveur/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/lave-auto-saint-jerome/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/essence-pas-chere-laurentides/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/infolettre/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/infolettre/2026-10-13/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/quoi-faire-ce-week-end-laurentides/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/a-propos/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/marche-public-saint-jerome/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/sentier-des-cimes-laurentides/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/festival-des-insectes-saint-jerome/</loc></url>
-<url><loc>https://lecoindeslaurentides.ca/acces-nature-parcs-laurentides/</loc></url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://lecoindeslaurentides.ca/sitemap-pages.xml</loc>
+    <lastmod>2026-10-13</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://lecoindeslaurentides.ca/sitemap-essence.xml</loc>
+    <lastmod>2026-10-13</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://lecoindeslaurentides.ca/sitemap-evenements.xml</loc>
+    <lastmod>2026-10-13</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://lecoindeslaurentides.ca/sitemap-editorial.xml</loc>
+    <lastmod>2026-10-13</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://lecoindeslaurentides.ca/sitemap-infolettre.xml</loc>
+    <lastmod>2026-10-13</lastmod>
+  </sitemap>
+</sitemapindex>
