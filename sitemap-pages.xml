@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+  <loc>https://lecoindeslaurentides.ca/</loc>
+  <lastmod>2026-10-13</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-laurentides.jpg</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://lecoindeslaurentides.ca/a-propos/</loc>
+  <lastmod>2026-10-13</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-laurentides.jpg</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://lecoindeslaurentides.ca/lave-auto-saint-jerome/</loc>
+  <lastmod>2026-10-13</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-lave-auto.webp</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://lecoindeslaurentides.ca/bottin-municipal-saint-jerome/</loc>
+  <lastmod>2026-10-13</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-bottin.webp</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://lecoindeslaurentides.ca/autobus-laurentides/</loc>
+  <lastmod>2026-10-13</lastmod>
+  <image:image>
+    <image:loc>https://lecoindeslaurentides.ca/assets/photo-autobus.webp</image:loc>
+  </image:image>
+</url>
+</urlset>
