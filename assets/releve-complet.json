@@ -1,6 +1,6 @@
 {
- "date": "2026-10-14",
- "date_fr": "mercredi 14 octobre 2026",
+ "date": "2026-10-15",
+ "date_fr": "jeudi 15 octobre 2026",
  "villes": {
   "saint-jerome": [
    {
@@ -75,12 +75,12 @@
    {
     "station": "Esso · 9486-1994 Québec Inc.",
     "adresse": "50 boul. de la Seigneurie, Blainville",
-    "prix": 189.9
+    "prix": 186.9
    },
    {
-    "station": "Ultramar · 9386-6622 QUEBEC INC",
-    "adresse": "1445 boul. Michèle-Bohec, Blainville",
-    "prix": 192.9
+    "station": "Couche-Tard · Couche-Tard #1031",
+    "adresse": "1000 boul. du Curé-Labelle, Blainville",
+    "prix": 186.9
    }
   ],
   "sainte-therese": [
@@ -107,7 +107,7 @@
    {
     "station": "Esso · 9167-8110 Québec Inc.",
     "adresse": "301 boul. du Coteau, Sainte-Thérèse",
-    "prix": 189.9
+    "prix": 186.9
    }
   ],
   "saint-eustache": [
@@ -139,18 +139,18 @@
   ],
   "saint-colomban": [
    {
+    "station": "Esso · Harnois Énergies Inc.",
+    "adresse": "446 côte Saint-Paul, Saint-Colomban",
+    "prix": 188.9
+   },
+   {
     "station": "Harnois · Harnois Énergies Inc.",
     "adresse": "60 montée de l'Église, Saint-Colomban",
-    "prix": 189.9
+    "prix": 188.9
    },
    {
     "station": "Ultramar · 9490-1857 Quebec Inc.",
     "adresse": "444 Côte St Paul, Saint-Colomban",
-    "prix": 189.9
-   },
-   {
-    "station": "Esso · Harnois Énergies Inc.",
-    "adresse": "446 côte Saint-Paul, Saint-Colomban",
     "prix": 189.9
    },
    {
@@ -188,6 +188,11 @@
   ],
   "saint-sauveur": [
    {
+    "station": "Esso · Harnois Énergies Inc.",
+    "adresse": "201 av. de la Gare, Saint-Sauveur",
+    "prix": 189.9
+   },
+   {
     "station": "Petro-Canada · 9446-7404 QUEBEC INC",
     "adresse": "165 Jean-Adam, Saint-Sauveur",
     "prix": 189.9
@@ -205,11 +210,6 @@
    {
     "station": "Ultramar · Gestion Tommar SENC",
     "adresse": "24 av. Saint-Denis, Saint-Sauveur",
-    "prix": 189.9
-   },
-   {
-    "station": "Esso · Harnois Énergies Inc.",
-    "adresse": "201 av. de la Gare, Saint-Sauveur",
     "prix": 189.9
    }
   ]
