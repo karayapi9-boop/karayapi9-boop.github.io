@@ -1,6 +1,6 @@
 {
- "date": "2026-10-16",
- "date_fr": "vendredi 16 octobre 2026",
+ "date": "2026-10-17",
+ "date_fr": "samedi 17 octobre 2026",
  "villes": {
   "saint-jerome": [
    {
@@ -31,29 +31,29 @@
   ],
   "mirabel": [
    {
-    "station": "Ultramar · 9437-0277 QUEBEC INC",
-    "adresse": "12446 route Arthur-Sauvé, Mirabel",
-    "prix": 184.9
+    "station": "Petro-Canada · 9102-7342 QUEBEC INC",
+    "adresse": "17505 rue Charles, Mirabel",
+    "prix": 183.9
    },
    {
-    "station": "Super Gaz · Super gaz ltée #805",
-    "adresse": "14533 boul. du Curé-Labelle, Mirabel",
-    "prix": 187.9
+    "station": "Esso · 9207-1471 Québec Inc.",
+    "adresse": "17555 rue Charles, Mirabel",
+    "prix": 186.9
    },
    {
-    "station": "Couche-Tard · Couche-Tard #1115",
-    "adresse": "9225 boul. Saint-Canut, Mirabel",
-    "prix": 188.9
+    "station": "Ultramar · 9532-5866 Quebec Inc",
+    "adresse": "13360 boul. du Curé-Labelle, Mirabel",
+    "prix": 186.9
    },
    {
-    "station": "Esso · Couche-Tard #1318",
-    "adresse": "14855 rue Dupuis, Mirabel",
-    "prix": 188.9
+    "station": "Ultramar · Immobilier BSI Inc",
+    "adresse": "17380 rue Victor, Mirabel",
+    "prix": 186.9
    },
    {
-    "station": "Sonic · Dépanneur Caliprix",
-    "adresse": "9190 boul. Saint-Canut, Mirabel",
-    "prix": 188.9
+    "station": "Esso · 9223-0341 Québec Inc.",
+    "adresse": "13470 boul. du Curé-Labelle, Mirabel",
+    "prix": 186.9
    }
   ],
   "blainville": [
@@ -112,29 +112,29 @@
   ],
   "saint-eustache": [
    {
-    "station": "Ultramar · 9501-2837 QUEBEC INC.",
-    "adresse": "491 boul. Arthur-Sauvé, Saint-Eustache",
-    "prix": 185.9
-   },
-   {
     "station": "Shell · Filgo St-Eustache",
     "adresse": "798 boul. Arthur-Sauvé, Saint-Eustache",
-    "prix": 185.9
+    "prix": 181.9
    },
    {
-    "station": "Bélisle · Comptoir d'essence Bélisle",
-    "adresse": "555 rue Saint-Eustache, Saint-Eustache",
-    "prix": 185.9
+    "station": "Shell · 2759-6402 Québec Inc.",
+    "adresse": "22 boul. Arthur-Sauvé, Saint-Eustache",
+    "prix": 181.9
+   },
+   {
+    "station": "Ultramar · 9501-2837 QUEBEC INC.",
+    "adresse": "491 boul. Arthur-Sauvé, Saint-Eustache",
+    "prix": 181.9
+   },
+   {
+    "station": "Esso · 9502-2828 QUÉBEC INC.",
+    "adresse": "507 ch. de la Grande-Côte, Saint-Eustache",
+    "prix": 181.9
    },
    {
     "station": "Esso · 9169-6047 Québec Inc.",
     "adresse": "490 boul. Arthur-Sauvé, Saint-Eustache",
-    "prix": 185.9
-   },
-   {
-    "station": "Petro-Canada · 9326-5064 QUEBEC INC",
-    "adresse": "550 Arthur-Sauvé, Saint-Eustache",
-    "prix": 185.9
+    "prix": 181.9
    }
   ],
   "saint-colomban": [
