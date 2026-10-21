@@ -130,7 +130,7 @@
    },
    {
     "date": "2026-10-21",
-    "prix_min": 175.9
+    "prix_min": 177.9
    }
   ],
   "mirabel": [
@@ -196,7 +196,7 @@
    },
    {
     "date": "2026-10-21",
-    "prix_min": 183.9
+    "prix_min": 182.9
    }
   ],
   "saint-colomban": [
@@ -262,7 +262,7 @@
    },
    {
     "date": "2026-10-21",
-    "prix_min": 188.9
+    "prix_min": 184.9
    }
   ],
   "saint-eustache": [
@@ -328,7 +328,7 @@
    },
    {
     "date": "2026-10-21",
-    "prix_min": 183.9
+    "prix_min": 177.9
    }
   ],
   "saint-jerome": [
@@ -409,8 +409,8 @@
    },
    {
     "date": "2026-10-21",
-    "prix_min": 184.9,
-    "prix_bonisoir": 188.8
+    "prix_min": 182.9,
+    "prix_bonisoir": 187.9
    }
   ],
   "saint-sauveur": [
@@ -542,7 +542,7 @@
    },
    {
     "date": "2026-10-21",
-    "prix_min": 183.9
+    "prix_min": 181.9
    }
   ]
  }
