@@ -1,6 +1,6 @@
 {
- "date": "2026-10-21",
- "date_fr": "mercredi 21 octobre 2026",
+ "date": "2026-10-22",
+ "date_fr": "jeudi 22 octobre 2026",
  "villes": {
   "saint-jerome": [
    {
@@ -14,46 +14,46 @@
     "prix": 185.9
    },
    {
-    "station": "Petro-Canada · Dépanneur Boni-Soir",
-    "adresse": "1149 Saint-Antoine, Saint-Jérôme",
-    "prix": 187.9
-   },
-   {
-    "station": "Ultramar · 9210-8638 Québec Inc.",
-    "adresse": "350 Boul. Lachapelle, SAINT-JÉRÔME",
-    "prix": 187.9
-   },
-   {
     "station": "Esso · Couche-Tard #1291",
     "adresse": "370 boul. des Laurentides, Saint-Jérôme",
+    "prix": 187.9
+   },
+   {
+    "station": "Esso · Couche-Tard #659",
+    "adresse": "520 av. 36, Saint-Jérôme",
+    "prix": 187.9
+   },
+   {
+    "station": "Petro-Canada · Dépanneur Boni-Soir",
+    "adresse": "1149 Saint-Antoine, Saint-Jérôme",
     "prix": 187.9
    }
   ],
   "mirabel": [
    {
-    "station": "Bélisle · Les pétroles Bélisle et Bélisle inc.",
-    "adresse": "15630 rue de Saint-Augustin, Mirabel",
-    "prix": 182.9
+    "station": "Bélisle · Filgo Halte 15",
+    "adresse": "17255 ch. Victor, Mirabel",
+    "prix": 178.9
    },
    {
-    "station": "Ultramar · 9407-0042 QUEBEC INC",
-    "adresse": "8175 ch. du Chicot nord, MIRABEL",
-    "prix": 182.9
+    "station": "Petro-Canada · 9102-7342 QUEBEC INC",
+    "adresse": "17505 rue Charles, Mirabel",
+    "prix": 178.9
    },
    {
-    "station": "Couche-Tard · Couche-Tard #1149",
-    "adresse": "8855 rue Saint-Jacques, Mirabel",
-    "prix": 182.9
+    "station": "Ultramar · Immobilier BSI Inc",
+    "adresse": "17380 rue Victor, MIRABEL",
+    "prix": 178.9
    },
    {
-    "station": "Ultramar · 9447-7411 Quebec Inc",
-    "adresse": "8201 rue Saint-Jacques, MIRABEL",
-    "prix": 182.9
+    "station": "Shell · 2759-6402 Québec Inc.",
+    "adresse": "14035 boul. du Curé-Labelle, Mirabel",
+    "prix": 181.9
    },
    {
-    "station": "Esso · 9207-1471 Québec Inc.",
-    "adresse": "17555 rue Charles, Mirabel",
-    "prix": 183.9
+    "station": "Esso · Couche-Tard #1244",
+    "adresse": "8990 boul. de la Grande-Allée, Mirabel",
+    "prix": 181.9
    }
   ],
   "blainville": [
@@ -79,7 +79,7 @@
    },
    {
     "station": "Petro-Canada · 9102-7342 QUEBEC INC",
-    "adresse": "55 des Châteaux, Blainville",
+    "adresse": "55 des Châteaux , Blainville",
     "prix": 183.9
    }
   ],
@@ -106,7 +106,7 @@
    },
    {
     "station": "Petro-Canada · 9475-9396 QUÉBEC INC",
-    "adresse": "56 du Curé-Labelle, Sainte-Thérèse",
+    "adresse": "56 du Curé-Labelle , Sainte-Thérèse",
     "prix": 183.9
    }
   ],
@@ -114,6 +114,11 @@
    {
     "station": "Esso · 9502-2828 QUÉBEC INC.",
     "adresse": "507 ch. de la Grande-Côte, Saint-Eustache",
+    "prix": 175.9
+   },
+   {
+    "station": "Esso · 9169-6047 Québec Inc.",
+    "adresse": "490 boul. Arthur-Sauvé, Saint-Eustache",
     "prix": 177.9
    },
    {
@@ -122,19 +127,14 @@
     "prix": 177.9
    },
    {
-    "station": "Bélisle · Les Pétroles Bélisle & Bélisle inc.",
-    "adresse": "215 rue Saint-Laurent, Saint-Eustache",
-    "prix": 179.9
-   },
-   {
-    "station": "Petro-Canada · 9102-7342 QUEBEC INC",
-    "adresse": "580 Dubois, Saint-Eustache",
-    "prix": 179.9
-   },
-   {
     "station": "Ultramar · 9359-8209 QUEBEC INC",
     "adresse": "520 ch. de la Grande-Côte, SAINT-EUSTACHE",
-    "prix": 179.9
+    "prix": 177.9
+   },
+   {
+    "station": "Ultramar · 9442-1641 Quebec Inc",
+    "adresse": "400 Dubois, SAINT-EUSTACHE",
+    "prix": 178.9
    }
   ],
   "saint-colomban": [
@@ -145,7 +145,7 @@
    },
    {
     "station": "Petro-Canada · DEPANNEUR 343 INC",
-    "adresse": "343 Saint-Nicolas, Saint-Colomban",
+    "adresse": "343 Saint-Nicolas , Saint-Colomban",
     "prix": 184.9
    },
    {
@@ -209,7 +209,7 @@
    },
    {
     "station": "Petro-Canada · 9446-7404 QUEBEC INC",
-    "adresse": "165 Jean-Adam, Saint-Sauveur",
+    "adresse": "165 Jean-Adam , Saint-Sauveur",
     "prix": 183.9
    }
   ]
