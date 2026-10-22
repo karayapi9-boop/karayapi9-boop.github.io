@@ -68,7 +68,7 @@
    },
    {
     "date": "2026-10-22",
-    "prix_min": 183.9
+    "prix_min": 178.9
    }
   ],
   "lachute": [
@@ -138,7 +138,7 @@
    },
    {
     "date": "2026-10-22",
-    "prix_min": 177.9
+    "prix_min": 171.9
    }
   ],
   "mirabel": [
@@ -208,7 +208,7 @@
    },
    {
     "date": "2026-10-22",
-    "prix_min": 178.9
+    "prix_min": 179.9
    }
   ],
   "saint-colomban": [
@@ -348,7 +348,7 @@
    },
    {
     "date": "2026-10-22",
-    "prix_min": 175.9
+    "prix_min": 178.9
    }
   ],
   "saint-jerome": [
@@ -435,7 +435,7 @@
    {
     "date": "2026-10-22",
     "prix_min": 182.9,
-    "prix_bonisoir": 187.9
+    "prix_bonisoir": 184.9
    }
   ],
   "saint-sauveur": [
@@ -575,7 +575,7 @@
    },
    {
     "date": "2026-10-22",
-    "prix_min": 181.9
+    "prix_min": 178.9
    }
   ]
  }
