@@ -1,6 +1,6 @@
 {
- "date": "2026-10-23",
- "date_fr": "vendredi 23 octobre 2026",
+ "date": "2026-10-24",
+ "date_fr": "samedi 24 octobre 2026",
  "villes": {
   "saint-jerome": [
    {
@@ -14,46 +14,46 @@
     "prix": 182.9
    },
    {
-    "station": "Ultramar · 9210-8638 Québec Inc.",
-    "adresse": "350 Boul. Lachapelle, SAINT-JÉRÔME",
-    "prix": 184.9
-   },
-   {
-    "station": "Esso · Couche-Tard #1291",
-    "adresse": "370 boul. des Laurentides, Saint-Jérôme",
-    "prix": 184.9
-   },
-   {
     "station": "Esso · Couche-Tard #659",
     "adresse": "520 av. 36, Saint-Jérôme",
+    "prix": 184.9
+   },
+   {
+    "station": "Couche-Tard · Couche-Tard #1132",
+    "adresse": "1535 boul. Saint-Antoine, Saint-Jérôme",
+    "prix": 184.9
+   },
+   {
+    "station": "Petro-Canada · Dépanneur Boni-Soir",
+    "adresse": "1149 Saint-Antoine , Saint-Jérôme",
     "prix": 184.9
    }
   ],
   "mirabel": [
    {
+    "station": "Super Gaz · Super gaz ltée #805",
+    "adresse": "14533 boul. du Curé-Labelle, Mirabel",
+    "prix": 174.9
+   },
+   {
     "station": "Bélisle · Filgo Halte 15",
     "adresse": "17255 ch. Victor, Mirabel",
-    "prix": 177.9
+    "prix": 175.9
    },
    {
-    "station": "Petro-Canada · 9102-7342 QUEBEC INC",
-    "adresse": "17505 rue Charles, Mirabel",
+    "station": "Bélisle · Comptoir d'essence Bélisle",
+    "adresse": "14630 rte Arthur-Sauvé, Mirabel",
     "prix": 178.9
    },
    {
-    "station": "Esso · 9207-1471 Québec Inc.",
-    "adresse": "17555 rue Charles, Mirabel",
+    "station": "Ultramar · 9437-0277 QUEBEC INC",
+    "adresse": "12446 route Arthur-Sauvé, MIRABEL",
     "prix": 178.9
    },
    {
-    "station": "Ultramar · 9532-5866 Quebec Inc",
-    "adresse": "13360 boul. du Curé-Labelle, MIRABEL",
-    "prix": 178.9
-   },
-   {
-    "station": "Ultramar · Immobilier BSI Inc",
-    "adresse": "17380 rue Victor, MIRABEL",
-    "prix": 178.9
+    "station": "Esso · 9344-3620 Québec Inc.",
+    "adresse": "11500 montée Sainte-Marianne, Mirabel",
+    "prix": 179.9
    }
   ],
   "blainville": [
@@ -112,29 +112,29 @@
   ],
   "saint-eustache": [
    {
-    "station": "Ultramar · 9501-2837 QUEBEC INC.",
-    "adresse": "491 boul. Arthur-Sauvé, SAINT-EUSTACHE",
-    "prix": 173.9
-   },
-   {
     "station": "Shell · Filgo St-Eustache",
     "adresse": "798 boul. Arthur-Sauvé, Saint-Eustache",
     "prix": 173.9
    },
    {
-    "station": "Esso · 9502-2828 QUÉBEC INC.",
-    "adresse": "507 ch. de la Grande-Côte, Saint-Eustache",
-    "prix": 173.9
+    "station": "Couche-Tard · Couche-Tard #156",
+    "adresse": "207 boul. Industriel, Saint-Eustache",
+    "prix": 178.9
    },
    {
-    "station": "Esso · 9169-6047 Québec Inc.",
-    "adresse": "490 boul. Arthur-Sauvé, Saint-Eustache",
-    "prix": 173.9
+    "station": "Bélisle · Comptoir d'essence Bélisle",
+    "adresse": "555 rue Saint-Eustache, Saint-Eustache",
+    "prix": 178.9
+   },
+   {
+    "station": "Petro-Canada · 9326-5064 QUEBEC INC",
+    "adresse": "550 Arthur-Sauvé , Saint-Eustache",
+    "prix": 189.9
    },
    {
     "station": "Couche-Tard · Couche-Tard #123",
     "adresse": "505 ch. de la Grande-Côte, Saint-Eustache",
-    "prix": 173.9
+    "prix": 189.9
    }
   ],
   "saint-colomban": [
