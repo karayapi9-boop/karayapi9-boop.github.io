@@ -1,0 +1,16 @@
+# Indice mensuel des prix de l'essence — Laurentides — octobre 2026
+# Période couverte : 2026-10-06 au 2026-10-31 (26 jours de relevés)
+# Source : Le Coin des Laurentides (lecoindeslaurentides.ca) — relevés quotidiens du prix le plus bas observé par secteur, à partir des prix affichés relevés par la Régie de l'énergie du Québec.
+# Méthode : prix moyen mensuel d'un secteur = moyenne arithmétique de ses prix quotidiens les plus bas sur les jours relevés.
+# Prix moyen régional du mois : 183.5 (moyenne des 8 secteurs)
+# Ville la moins chère du mois : Lachute (179.0 en moyenne)
+# Jour de semaine le moins cher (région) : samedi (181.9 en moyenne)
+ville,slug,jours_de_releves,prix_moyen_mensuel_c_l,prix_le_plus_bas_c_l,prix_le_plus_haut_c_l,variation_vs_mois_precedent_c_l
+Lachute,lachute,26,179.0,171.9,193.9,
+Saint-Eustache,saint-eustache,26,182.6,173.9,195.9,
+Mirabel,mirabel,26,182.7,174.9,187.9,
+Saint-Jérôme,saint-jerome,26,182.7,175.9,185.9,
+Saint-Sauveur,saint-sauveur,26,184.1,179.9,190.9,
+Sainte-Thérèse,sainte-therese,26,185.0,178.9,201.9,
+Blainville,blainville,26,185.2,178.9,199.9,
+Saint-Colomban,saint-colomban,26,187.1,179.9,190.9,
