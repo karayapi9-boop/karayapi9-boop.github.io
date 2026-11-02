@@ -22,6 +22,9 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://lecoindeslaurentides.ca/"}, {"@type": "ListItem", "position": 2, "name": "Prix de l'essence dans les Laurentides", "item": "https://lecoindeslaurentides.ca/prix-essence-laurentides/"}, {"@type": "ListItem", "position": 3, "name": "Indice mensuel des prix de l'essence", "item": "https://lecoindeslaurentides.ca/indice-prix-essence-laurentides/"}]}
 </script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "Dataset", "name": "Indice mensuel des prix de l'essence — Laurentides", "description": "Prix le plus bas moyen mensuel de l'essence ordinaire par secteur des Laurentides, ville la moins chère du mois et jour de semaine le moins cher, calculés depuis les relevés quotidiens du Coin des Laurentides.", "url": "https://lecoindeslaurentides.ca/indice-prix-essence-laurentides/", "inLanguage": "fr-CA", "creator": {"@type": "Organization", "name": "Le Coin des Laurentides", "url": "https://lecoindeslaurentides.ca/"}, "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://lecoindeslaurentides.ca/assets/indice-2026-10.csv"}]}
+</script>
 <style>
   body{margin:0;background:#eef2ec;color:#17201c;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
   .wrap{max-width:760px;margin:0 auto;padding:24px 18px 48px}
@@ -49,10 +52,49 @@
   <p>Les données de chaque édition sont offertes en <strong>CSV téléchargeable</strong>, en réutilisation libre — médias, municipalités, organismes et citoyens peuvent les reprendre avec la mention : « Source : Le Coin des Laurentides — lecoindeslaurentides.ca ». Le relevé du jour, station par station, reste sur la page <a href="https://lecoindeslaurentides.ca/prix-essence-laurentides/">prix de l'essence dans les Laurentides</a> et sur la page de chaque ville.</p>
 
   <h2>Éditions</h2>
-  <div class="card">
-    <p><strong>Première édition — Octobre 2026</strong></p>
-    <p>La première édition de l'indice paraît le <strong>lundi 2 novembre 2026</strong> : elle couvrira les relevés quotidiens d'octobre 2026, le premier mois suivi par le site (relevés depuis le 6 octobre 2026). Elle présentera le prix moyen de chaque secteur, la ville la moins chère du mois et le jour de semaine le moins cher dans la région, avec le fichier de données (CSV) à télécharger.</p>
-    <p class="muted">Les éditions suivantes paraîtront chaque premier lundi du mois, sur cette page.</p>
+  <div class="card edition" id="indice-2026-10">
+    <h3>Édition — octobre 2026</h3>
+    <p>Période couverte : du mardi 6 octobre 2026 au samedi 31 octobre 2026 (26 jours de relevés). Prix moyen régional du mois : <strong>183,5 ¢/L</strong> (moyenne des 8 secteurs).</p>
+    <p>La ville la moins chère du mois : <strong>Lachute</strong>, avec un prix le plus bas moyen de <strong>179,0 ¢/L</strong>. Le jour de semaine le moins cher dans la région : le <strong>samedi</strong> (moyenne régionale de 181,9 ¢/L).</p>
+  <svg viewBox="0 0 640 202" width="100%" role="img" aria-label="Graphique : prix moyen mensuel par secteur" style="max-width:640px;height:auto">
+    <text x="0" y="21" font-size="12.5" fill="#17201c">Lachute</text>
+    <rect x="118" y="8" width="411" height="16" rx="3" fill="#d56f2a"/>
+    <text x="536" y="21" font-size="12.5" font-weight="700" fill="#17201c">179,0 ¢/L</text>
+    <text x="0" y="45" font-size="12.5" fill="#17201c">Saint-Eustache</text>
+    <rect x="118" y="32" width="420" height="16" rx="3" fill="#173f35"/>
+    <text x="545" y="45" font-size="12.5" font-weight="700" fill="#17201c">182,6 ¢/L</text>
+    <text x="0" y="69" font-size="12.5" fill="#17201c">Mirabel</text>
+    <rect x="118" y="56" width="420" height="16" rx="3" fill="#173f35"/>
+    <text x="545" y="69" font-size="12.5" font-weight="700" fill="#17201c">182,7 ¢/L</text>
+    <text x="0" y="93" font-size="12.5" fill="#17201c">Saint-Jérôme</text>
+    <rect x="118" y="80" width="420" height="16" rx="3" fill="#173f35"/>
+    <text x="545" y="93" font-size="12.5" font-weight="700" fill="#17201c">182,7 ¢/L</text>
+    <text x="0" y="117" font-size="12.5" fill="#17201c">Saint-Sauveur</text>
+    <rect x="118" y="104" width="423" height="16" rx="3" fill="#173f35"/>
+    <text x="548" y="117" font-size="12.5" font-weight="700" fill="#17201c">184,1 ¢/L</text>
+    <text x="0" y="141" font-size="12.5" fill="#17201c">Sainte-Thérèse</text>
+    <rect x="118" y="128" width="425" height="16" rx="3" fill="#173f35"/>
+    <text x="550" y="141" font-size="12.5" font-weight="700" fill="#17201c">185,0 ¢/L</text>
+    <text x="0" y="165" font-size="12.5" fill="#17201c">Blainville</text>
+    <rect x="118" y="152" width="426" height="16" rx="3" fill="#173f35"/>
+    <text x="551" y="165" font-size="12.5" font-weight="700" fill="#17201c">185,2 ¢/L</text>
+    <text x="0" y="189" font-size="12.5" fill="#17201c">Saint-Colomban</text>
+    <rect x="118" y="176" width="430" height="16" rx="3" fill="#173f35"/>
+    <text x="555" y="189" font-size="12.5" font-weight="700" fill="#17201c">187,1 ¢/L</text>
+  </svg>
+    <table>
+      <tr><th>Secteur</th><th>Jours de relevés</th><th>Prix moyen du mois</th><th>Plus bas</th><th>Plus haut</th><th>Variation vs mois précédent</th></tr>
+      <tr class="vedette"><td>Lachute</td><td>26</td><td><strong>179,0 ¢/L</strong></td><td>171,9 ¢/L</td><td>193,9 ¢/L</td><td>—</td></tr>
+      <tr><td>Saint-Eustache</td><td>26</td><td><strong>182,6 ¢/L</strong></td><td>173,9 ¢/L</td><td>195,9 ¢/L</td><td>—</td></tr>
+      <tr><td>Mirabel</td><td>26</td><td><strong>182,7 ¢/L</strong></td><td>174,9 ¢/L</td><td>187,9 ¢/L</td><td>—</td></tr>
+      <tr><td>Saint-Jérôme</td><td>26</td><td><strong>182,7 ¢/L</strong></td><td>175,9 ¢/L</td><td>185,9 ¢/L</td><td>—</td></tr>
+      <tr><td>Saint-Sauveur</td><td>26</td><td><strong>184,1 ¢/L</strong></td><td>179,9 ¢/L</td><td>190,9 ¢/L</td><td>—</td></tr>
+      <tr><td>Sainte-Thérèse</td><td>26</td><td><strong>185,0 ¢/L</strong></td><td>178,9 ¢/L</td><td>201,9 ¢/L</td><td>—</td></tr>
+      <tr><td>Blainville</td><td>26</td><td><strong>185,2 ¢/L</strong></td><td>178,9 ¢/L</td><td>199,9 ¢/L</td><td>—</td></tr>
+      <tr><td>Saint-Colomban</td><td>26</td><td><strong>187,1 ¢/L</strong></td><td>179,9 ¢/L</td><td>190,9 ¢/L</td><td>—</td></tr>
+    </table>
+    <p class="muted">Moyennes régionales par jour de semaine (octobre 2026) : lundi : 182,8 ¢/L ; mardi : 185,2 ¢/L ; mercredi : 184,9 ¢/L ; jeudi : 183,6 ¢/L ; vendredi : 183,4 ¢/L ; samedi : 181,9 ¢/L ; dimanche : 182,8 ¢/L.</p>
+<p class="muted">Première édition de l'indice : aucune variation par rapport au mois précédent.</p>    <p><a href="https://lecoindeslaurentides.ca/assets/indice-2026-10.csv">Télécharger les données de octobre 2026 (CSV)</a> — réutilisation libre avec mention de la source : Le Coin des Laurentides.</p>
   </div>
 
   <h2>Méthodologie</h2>
