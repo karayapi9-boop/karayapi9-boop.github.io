@@ -172,7 +172,7 @@
       },
       {
         "date": "2026-11-17",
-        "prix_min": 164.9
+        "prix_min": 158.9
       }
     ],
     "lachute": [
@@ -520,7 +520,7 @@
       },
       {
         "date": "2026-11-17",
-        "prix_min": 159.9
+        "prix_min": 157.9
       }
     ],
     "saint-colomban": [
@@ -694,7 +694,7 @@
       },
       {
         "date": "2026-11-17",
-        "prix_min": 164.9
+        "prix_min": 162.9
       }
     ],
     "saint-eustache": [
@@ -868,7 +868,7 @@
       },
       {
         "date": "2026-11-17",
-        "prix_min": 164.9
+        "prix_min": 158.9
       }
     ],
     "saint-jerome": [
@@ -1085,7 +1085,7 @@
       {
         "date": "2026-11-17",
         "prix_min": 149.9,
-        "prix_bonisoir": 164.9
+        "prix_bonisoir": 159.9
       }
     ],
     "saint-sauveur": [
@@ -1433,7 +1433,7 @@
       },
       {
         "date": "2026-11-17",
-        "prix_min": 164.9
+        "prix_min": 158.9
       }
     ]
   }
