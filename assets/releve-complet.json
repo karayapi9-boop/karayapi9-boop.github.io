@@ -1,6 +1,6 @@
 {
- "date": "2026-11-19",
- "date_fr": "jeudi 19 novembre 2026",
+ "date": "2026-11-20",
+ "date_fr": "vendredi 20 novembre 2026",
  "villes": {
   "saint-jerome": [
    {
@@ -9,33 +9,33 @@
     "prix": 149.9
    },
    {
+    "station": "Ultramar · 9210-8638 Québec Inc.",
+    "adresse": "350 Boul. Lachapelle, SAINT-JÉRÔME",
+    "prix": 154.9
+   },
+   {
+    "station": "Couche-Tard · Couche-Tard #1132",
+    "adresse": "1535 boul. Saint-Antoine, Saint-Jérôme",
+    "prix": 154.9
+   },
+   {
+    "station": "Esso · Couche-Tard #659",
+    "adresse": "520 av. 36, Saint-Jérôme",
+    "prix": 154.9
+   },
+   {
+    "station": "Petro-Canada · Dépanneur Boni-Soir",
+    "adresse": "1149 Saint-Antoine , Saint-Jérôme",
+    "prix": 154.9
+   },
+   {
     "station": "Super Gaz · Super Gaz #806",
     "adresse": "840 boul. De Martigny ouest, Saint-Jérôme",
     "prix": 158.9
    },
    {
-    "station": "Ultramar · 9210-8638 Québec Inc.",
-    "adresse": "350 Boul. Lachapelle, SAINT-JÉRÔME",
-    "prix": 159.9
-   },
-   {
-    "station": "Couche-Tard · Couche-Tard #1132",
-    "adresse": "1535 boul. Saint-Antoine, Saint-Jérôme",
-    "prix": 159.9
-   },
-   {
     "station": "Esso · Couche-Tard #1291",
     "adresse": "370 boul. des Laurentides, Saint-Jérôme",
-    "prix": 159.9
-   },
-   {
-    "station": "Esso · Couche-Tard #659",
-    "adresse": "520 av. 36, Saint-Jérôme",
-    "prix": 159.9
-   },
-   {
-    "station": "Petro-Canada · Dépanneur Boni-Soir",
-    "adresse": "1149 Saint-Antoine , Saint-Jérôme",
     "prix": 159.9
    }
   ],
