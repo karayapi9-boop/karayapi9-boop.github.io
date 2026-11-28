@@ -1,32 +1,32 @@
 {
-  "date": "2026-11-27",
-  "date_fr": "vendredi 27 novembre 2026",
+  "date": "2026-11-28",
+  "date_fr": "samedi 28 novembre 2026",
   "villes": {
     "saint-jerome": [
       {
         "station": "Costco · Costco Saint-Jérôme",
         "adresse": "1001 boul. Jean-Baptiste-Rolland ouest, Saint-Jérôme",
-        "prix": 146.9
+        "prix": 144.9
+      },
+      {
+        "station": "Super Gaz · Super Gaz #806",
+        "adresse": "840 boul. De Martigny ouest, Saint-Jérôme",
+        "prix": 144.9
       },
       {
         "station": "Intergaz · Les produits pétroliers Intergaz",
         "adresse": "969 boul. de la Salette, Saint-Jérôme",
+        "prix": 145.9
+      },
+      {
+        "station": "Esso · Couche-Tard #1290",
+        "adresse": "188 rue Bélanger, Saint-Jérôme",
         "prix": 147.9
       },
       {
-        "station": "Ultramar · Dépanneur Voisin A.J.",
-        "adresse": "1080 boul. Roland-Godard, SAINT-JÉRÔME",
-        "prix": 149.9
-      },
-      {
-        "station": "Couche-Tard · Couche-Tard #1134",
-        "adresse": "720 boul. de la Salette, Saint-Jérôme",
-        "prix": 149.9
-      },
-      {
-        "station": "Petro-Canada · 9102-7342 QUEBEC INC",
-        "adresse": "260 De Martigny ouest, Saint-Jérôme",
-        "prix": 149.9
+        "station": "Intergaz · Les produits pétroliers Intergaz",
+        "adresse": "651 boul. Roland-Godard, Saint-Jérôme",
+        "prix": 147.9
       },
       {
         "station": "Petro-Canada · Dépanneur Boni-Soir",
@@ -36,19 +36,9 @@
     ],
     "mirabel": [
       {
-        "station": "Ultramar · 9447-7411 Quebec Inc",
-        "adresse": "8201 rue Saint-Jacques, MIRABEL",
-        "prix": 148.9
-      },
-      {
         "station": "Super Gaz · Super gaz ltée #805",
         "adresse": "14533 boul. du Curé-Labelle, Mirabel",
-        "prix": 148.9
-      },
-      {
-        "station": "Ultramar · 9407-0042 QUEBEC INC",
-        "adresse": "8175 ch. du Chicot nord, MIRABEL",
-        "prix": 148.9
+        "prix": 146.9
       },
       {
         "station": "Ultramar · 9437-0277 QUEBEC INC",
@@ -59,14 +49,19 @@
         "station": "Couche-Tard · Couche-Tard #1149",
         "adresse": "8855 rue Saint-Jacques, Mirabel",
         "prix": 148.9
+      },
+      {
+        "station": "Ultramar · 9447-7411 Quebec Inc",
+        "adresse": "8201 rue Saint-Jacques, MIRABEL",
+        "prix": 148.9
+      },
+      {
+        "station": "Bélisle · Comptoir d'essence Bélisle",
+        "adresse": "14630 rte Arthur-Sauvé, Mirabel",
+        "prix": 148.9
       }
     ],
     "blainville": [
-      {
-        "station": "Esso · Couche-Tard #173",
-        "adresse": "1059 boul. du Curé-Labelle, Blainville",
-        "prix": 149.9
-      },
       {
         "station": "Petro-Canada · 9102-7342 QUEBEC INC",
         "adresse": "55 des Châteaux , Blainville",
@@ -86,6 +81,11 @@
         "station": "Esso · 9486-1994 Québec Inc.",
         "adresse": "50 boul. de la Seigneurie, Blainville",
         "prix": 149.9
+      },
+      {
+        "station": "Couche-Tard · Couche-Tard #1031",
+        "adresse": "1000 boul. du Curé-Labelle, Blainville",
+        "prix": 149.9
       }
     ],
     "sainte-therese": [
@@ -95,54 +95,59 @@
         "prix": 149.9
       },
       {
+        "station": "Esso · Harnois Énergies Inc.",
+        "adresse": "301 boul. du Coteau, Sainte-Thérèse",
+        "prix": 149.9
+      },
+      {
         "station": "Shell · 2759-6402 QUÉBEC INC.",
         "adresse": "22 boul. du Curé-Labelle, Sainte-Thérèse",
-        "prix": 155.9
+        "prix": 149.9
       },
       {
         "station": "Petro-Canada · 9475-9396 QUÉBEC INC",
         "adresse": "56 du Curé-Labelle , Sainte-Thérèse",
-        "prix": 155.9
+        "prix": 149.9
       },
       {
         "station": "Ultramar · GARAGE LABELLE & CHALIFOUX INC",
         "adresse": "126 Boul. du Curé-Labelle, Sainte-Thérèse",
-        "prix": 162.9
-      },
-      {
-        "station": "Esso · Harnois Énergies Inc.",
-        "adresse": "301 boul. du Coteau, Sainte-Thérèse",
-        "prix": 162.9
+        "prix": 149.9
       }
     ],
     "saint-eustache": [
       {
         "station": "Petro-Canada · 9102-7342 QUEBEC INC",
         "adresse": "580 Dubois , Saint-Eustache",
-        "prix": 146.9
+        "prix": 145.9
+      },
+      {
+        "station": "Esso · 9169-6047 Québec Inc.",
+        "adresse": "490 boul. Arthur-Sauvé, Saint-Eustache",
+        "prix": 145.9
+      },
+      {
+        "station": "Couche-Tard · Couche-Tard #1079",
+        "adresse": "802 boul. Arthur-Sauvé, Saint-Eustache",
+        "prix": 145.9
       },
       {
         "station": "Couche-Tard · Couche-Tard #123",
         "adresse": "505 ch. de la Grande-Côte, Saint-Eustache",
-        "prix": 146.9
+        "prix": 145.9
       },
       {
         "station": "Ultramar · 9359-8209 QUEBEC INC",
         "adresse": "520 ch. de la Grande-Côte, SAINT-EUSTACHE",
-        "prix": 146.9
-      },
-      {
-        "station": "Ultramar · 9442-1641 Quebec Inc",
-        "adresse": "400 Dubois, SAINT-EUSTACHE",
-        "prix": 146.9
-      },
-      {
-        "station": "Petro-Canada · 9485-1177 Québec Inc.",
-        "adresse": "123 rue Saint-Laurent, Saint-Eustache",
-        "prix": 146.9
+        "prix": 145.9
       }
     ],
     "saint-colomban": [
+      {
+        "station": "Harnois · Harnois Énergies Inc.",
+        "adresse": "60 montée de l'Église, Saint-Colomban",
+        "prix": 149.9
+      },
       {
         "station": "Ultramar · 9490-1857 Quebec Inc.",
         "adresse": "444 Côte St Paul, SAINT-COLOMBAN",
@@ -157,65 +162,60 @@
         "station": "Esso · Harnois Énergies Inc.",
         "adresse": "446 côte Saint-Paul, Saint-Colomban",
         "prix": 149.9
-      },
-      {
-        "station": "Harnois · Harnois Énergies Inc.",
-        "adresse": "60 montée de l'Église, Saint-Colomban",
-        "prix": 149.9
       }
     ],
     "lachute": [
       {
-        "station": "Ultramar · Garage Pierre Paul Desforges Inc",
-        "adresse": "203 rue Principale, LACHUTE",
-        "prix": 146.9
+        "station": "Mobil · BCP IV Service Station LP",
+        "adresse": "367 rue Principale, Lachute",
+        "prix": 142.9
       },
       {
-        "station": "Canadian Tire · La Société Canadian Tire Ltée",
-        "adresse": "93 av. Bethany, Lachute",
-        "prix": 146.9
+        "station": "Ultramar · 9560-9319 QUEBEC Inc.",
+        "adresse": "131 av. de la Providence, LACHUTE",
+        "prix": 143.9
+      },
+      {
+        "station": "Ultramar · DARCY LATOUR",
+        "adresse": "1295 rue Principale, LACHUTE",
+        "prix": 143.9
+      },
+      {
+        "station": "Ultramar · Garage Pierre Paul Desforges Inc",
+        "adresse": "203 rue Principale, LACHUTE",
+        "prix": 143.9
       },
       {
         "station": "Sonic · Sonichoix Lachute",
         "adresse": "340 av. Bethany, Lachute",
         "prix": 146.9
-      },
-      {
-        "station": "Ultramar · 9560-9319 QUEBEC Inc.",
-        "adresse": "131 av. de la Providence, LACHUTE",
-        "prix": 146.9
-      },
-      {
-        "station": "Ultramar · 9140-7544 Quebec Inc",
-        "adresse": "495 av. Bethany, LACHUTE",
-        "prix": 146.9
       }
     ],
     "saint-sauveur": [
       {
-        "station": "Ultramar · Gestion Tommar SENC",
-        "adresse": "24 av. Saint-Denis, SAINT-SAUVEUR",
-        "prix": 148.9
-      },
-      {
-        "station": "Esso · Harnois Énergies Inc.",
-        "adresse": "201 av. de la Gare, Saint-Sauveur",
-        "prix": 148.9
+        "station": "Petro-Canada · 9446-7404 QUEBEC INC",
+        "adresse": "165 Jean-Adam , Saint-Sauveur",
+        "prix": 147.9
       },
       {
         "station": "Couche-Tard · Couche-Tard #1278",
         "adresse": "720 ch. Jean-Adam, Saint-Sauveur",
-        "prix": 148.9
+        "prix": 147.9
+      },
+      {
+        "station": "Ultramar · Gestion Tommar SENC",
+        "adresse": "24 av. Saint-Denis, SAINT-SAUVEUR",
+        "prix": 147.9
+      },
+      {
+        "station": "Esso · Harnois Énergies Inc.",
+        "adresse": "201 av. de la Gare, Saint-Sauveur",
+        "prix": 147.9
       },
       {
         "station": "Shell · Dépanneur Lecavalier inc.",
         "adresse": "700 - 100 ch. Jean-Adam, Saint-Sauveur",
         "prix": 149.9
-      },
-      {
-        "station": "Petro-Canada · 9446-7404 QUEBEC INC",
-        "adresse": "165 Jean-Adam , Saint-Sauveur",
-        "prix": 150.9
       }
     ]
   }
